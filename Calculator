@@ -1,0 +1,16 @@
+Num1=float(input("Please Input First Number"))
+Num2=float(input("Please Input Seconde Number"))
+Operator=(input("Please input Your Operation"))
+if Operator == ("+") :
+    print(Num1+Num2)
+elif Operator == ("-"):
+    print(Num1-Num2)
+elif Operator == ("*"):
+    print(Num1*Num2)
+elif Operator == ("/"):
+     if Num2 == 0 :
+      print("Not Define")
+     else:
+      print(Num1/Num2)
+else :
+   print("OPERATO INVALID !")
